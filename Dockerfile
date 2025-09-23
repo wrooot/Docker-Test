@@ -1,4 +1,4 @@
-FROM node:ubuntu
+FROM node:alpine
 RUN app-get update
 COPY . /app
 WORKDIR /app
