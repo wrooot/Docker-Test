@@ -1,4 +1,4 @@
-FROM node:ubuntu
+FROM ubuntu/node
 RUN apt-get update
 COPY . /app
 WORKDIR /app
