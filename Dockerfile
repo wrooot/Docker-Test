@@ -1,5 +1,5 @@
 FROM node:alpine
-RUN app-get update
+RUN apt-get update
 COPY . /app
 WORKDIR /app
 CMD node app.js
